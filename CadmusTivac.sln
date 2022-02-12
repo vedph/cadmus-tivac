@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadmus.Tivac.Parts", "Cadmus.Tivac.Parts\Cadmus.Tivac.Parts.csproj", "{43EBDBD0-B520-4864-A983-E6DF3B5B5117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadmus.Seed.Tivac.Parts", "Cadmus.Seed.Tivac.Parts\Cadmus.Seed.Tivac.Parts.csproj", "{AE0A70A3-F907-41A8-9F9C-88033B5A05BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadmus.Tivac.Services", "Cadmus.Tivac.Services\Cadmus.Tivac.Services.csproj", "{FCF8D9B2-9EDB-40FB-A7C4-F6556AF1443D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadmus.Tivac.Parts.Test", "Cadmus.Tivac.Parts.Test\Cadmus.Tivac.Parts.Test.csproj", "{74C21781-953C-4437-89E2-4A58E9B58DE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadmus.Seed.Tivac.Parts.Test", "Cadmus.Seed.Tivac.Parts.Test\Cadmus.Seed.Tivac.Parts.Test.csproj", "{363EABB6-2EB2-447C-BD2D-303CB331D62B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A23DD831-3F94-4322-9A0E-305348FC272A}"
+	ProjectSection(SolutionItems) = preProject
+		Pack.bat = Pack.bat
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43EBDBD0-B520-4864-A983-E6DF3B5B5117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EBDBD0-B520-4864-A983-E6DF3B5B5117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EBDBD0-B520-4864-A983-E6DF3B5B5117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EBDBD0-B520-4864-A983-E6DF3B5B5117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0A70A3-F907-41A8-9F9C-88033B5A05BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0A70A3-F907-41A8-9F9C-88033B5A05BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0A70A3-F907-41A8-9F9C-88033B5A05BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0A70A3-F907-41A8-9F9C-88033B5A05BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF8D9B2-9EDB-40FB-A7C4-F6556AF1443D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF8D9B2-9EDB-40FB-A7C4-F6556AF1443D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF8D9B2-9EDB-40FB-A7C4-F6556AF1443D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF8D9B2-9EDB-40FB-A7C4-F6556AF1443D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C21781-953C-4437-89E2-4A58E9B58DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C21781-953C-4437-89E2-4A58E9B58DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C21781-953C-4437-89E2-4A58E9B58DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C21781-953C-4437-89E2-4A58E9B58DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363EABB6-2EB2-447C-BD2D-303CB331D62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363EABB6-2EB2-447C-BD2D-303CB331D62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363EABB6-2EB2-447C-BD2D-303CB331D62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363EABB6-2EB2-447C-BD2D-303CB331D62B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FE44547-E299-451E-BE28-99D06CD016AD}
+	EndGlobalSection
+EndGlobal

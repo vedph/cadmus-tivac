@@ -1,0 +1,49 @@
+﻿{
+  "facets": [
+    {
+      "typeId": "it.vedph.tivac.grf-location",
+      "name": "forms",
+      "description": "Graffiti location.",
+      "colorKey": "31AB54",
+      "groupKey": "graffiti",
+      "sortKey": "a"
+    },
+    {
+      "typeId": "it.vedph.tivac.grf-support",
+      "name": "forms",
+      "description": "Graffiti support.",
+      "colorKey": "31AB54",
+      "groupKey": "graffiti",
+      "sortKey": "b"
+    },
+    {
+      "typeId": "it.vedph.tivac.grf-writing",
+      "name": "forms",
+      "description": "Graffiti writing.",
+      "colorKey": "31AB54",
+      "groupKey": "graffiti",
+      "sortKey": "c"
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "baseTextPartTypeId": "it.vedph.token-text",
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.tivac.grf-location"
+      },
+      {
+        "id": "seed.it.vedph.tivac.grf-support"
+      },
+      {
+        "id": "seed.it.vedph.tivac.grf-writing"
+      }
+    ],
+    "fragmentSeeders": []
+  }
+}
