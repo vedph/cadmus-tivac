@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<Authors>Daniele Fusi</Authors>
+	<Company>Fusi</Company>
+	<Product>Cadmus</Product>
+	<Description>Cadmus Tivac part seeders.</Description>
+	<Copyright>by Daniele Fusi</Copyright>
+	<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+	<PackageTags>Cadmus;Tivac</PackageTags>
+	<NeutralLanguage>en-US</NeutralLanguage>
+	<Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

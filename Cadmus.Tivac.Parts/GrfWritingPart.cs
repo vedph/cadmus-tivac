@@ -71,6 +71,14 @@ namespace Cadmus.Tivac.Parts
         public short RowCount { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="GrfWritingPart"/> class.
+        /// </summary>
+        public GrfWritingPart()
+        {
+            ContentFeatures = new List<string>();
+        }
+
+        /// <summary>
         /// Get all the key=value pairs (pins) exposed by the implementor.
         /// </summary>
         /// <param name="item">The optional item. The item with its parts
@@ -121,7 +129,7 @@ namespace Cadmus.Tivac.Parts
                     "The writing technique."),
                  new DataPinDefinition(DataPinValueType.String,
                     "tool",
-                    "The tool system."),
+                    "The writing tool."),
                  new DataPinDefinition(DataPinValueType.String,
                     "fig-type",
                     "The figurative type."),
