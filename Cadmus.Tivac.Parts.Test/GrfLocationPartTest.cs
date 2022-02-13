@@ -52,7 +52,7 @@ namespace Cadmus.Tivac.Parts.Test
         }
 
         [Fact]
-        public void GetDataPins_Tag_1()
+        public void GetDataPins_Ok()
         {
             GrfLocationPart part = GetEmptyPart();
             part.Place = "place1";

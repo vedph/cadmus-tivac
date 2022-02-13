@@ -29,7 +29,7 @@ The graffiti item has the following parts (in this document all the capital lett
 - currentFn\* (string) T:grf-support-functions (G)
 - objectType\* (string) T:grf-support-object-types (H)
 - supportType\* (string) T:grf-support-types (J)
-- isInside\* (bool) (I)
+- isIndoor\* (bool) (I)
 - material\* (string) T:grf-support-materials (K)
 - size\* (PhysicalSize) (X)
 - state (string; a description) (CF)
@@ -37,11 +37,11 @@ The graffiti item has the following parts (in this document all the capital lett
 
 ### GrfWritingPart
 
-- alphabet\* (string) T:grf-writing-alphabets (Z)
-- writing\* (string) T:grf-writing-writings (AB)
+- system\* (string) T:grf-writing-systems (Z)
+- type\* (string) T:grf-writing-types (AB)
 - language\* (string) T:grf-writing-languages (AA)
-- technique\* (string) T:grf-writing-techniques (P)
 - isPoetic\* (bool)
+- technique\* (string) T:grf-writing-techniques (P)
 - tool (string) T:grf-writing-tools (Q)
 - figType (string) T:grf-writing-fig-types (R, V)
 - contentFeatures (string[]) T:grf-writing-content-flags. Features set: hasText (S), hasDigits (T), hasPunctuation (AE), hasLigature (AF), hasAbbreviations (AG), hasMonogram (AI), hasSingleLetter (AJ), hasUndefLetter (AK), hasUndefDrawing (AL)
