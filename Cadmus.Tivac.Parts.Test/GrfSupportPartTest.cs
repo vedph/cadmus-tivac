@@ -59,6 +59,7 @@ namespace Cadmus.Tivac.Parts.Test
             part.OriginalFn = "house";
             part.CurrentFn = "street";
             part.ObjectType = "well";
+            part.SupportType = "door";
             part.IsIndoor = true;
             part.Material = "stone";
             part.Size = new PhysicalSize
@@ -77,7 +78,7 @@ namespace Cadmus.Tivac.Parts.Test
             part.LastViewed = new DateTime(2021, 12, 21);
 
             List<DataPin> pins = part.GetDataPins(null).ToList();
-            Assert.Equal(8, pins.Count);
+            Assert.Equal(9, pins.Count);
 
             DataPin? pin = pins.Find(
                 p => p.Name == "original-fn" && p.Value == "house");
@@ -89,6 +90,10 @@ namespace Cadmus.Tivac.Parts.Test
             TestHelper.AssertPinIds(part, pin!);
 
             pin = pins.Find(p => p.Name == "object-type" && p.Value == "well");
+            Assert.NotNull(pin);
+            TestHelper.AssertPinIds(part, pin!);
+
+            pin = pins.Find(p => p.Name == "support-type" && p.Value == "door");
             Assert.NotNull(pin);
             TestHelper.AssertPinIds(part, pin!);
 

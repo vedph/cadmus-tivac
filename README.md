@@ -10,8 +10,7 @@ The graffiti item has the following parts (in this document all the capital lett
 - GrfSupportPart
 - GrfWritingPart
 - HistoricalDatePart (LMNO)
-- CategoriesPart (role: content, AM-BJ)
-- CategoriesPart (role: figurative, BK-CB)
+- CategoriesPart (content: AM-BJ, figurative: BK-CB)
 - TokenTextPart (CD)\*
 - NotePart (role: comment) (CE)
 - BibliographyPart (CG)
@@ -31,7 +30,15 @@ The graffiti item has the following parts (in this document all the capital lett
 - supportType\* (string) T:grf-support-types (J)
 - isIndoor\* (bool) (I)
 - material\* (string) T:grf-support-materials (K)
-- size\* (PhysicalSize) (X)
+- size\* (PhysicalSize) (X):
+	- tag (string)
+	- w (PhysicalDimension):
+	  - tag (string)
+	  - value (float)
+	  - unit (string)
+	- h (PhysicalDimension)
+	- d (PhysicalDimension)
+	- note (string)
 - state (string; a description) (CF)
 - lastViewed\* (date) (CH)
 

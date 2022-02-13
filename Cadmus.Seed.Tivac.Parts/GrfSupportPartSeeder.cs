@@ -37,6 +37,8 @@ namespace Cadmus.Seed.Tivac.Parts
                .RuleFor(p => p.CurrentFn, f => f.PickRandom(fnn))
                .RuleFor(p => p.ObjectType,
                     f => f.PickRandom("street", "bridge", "well"))
+               .RuleFor(p => p.SupportType,
+                    f => f.PickRandom("street", "door"))
                .RuleFor(p => p.IsIndoor, f => f.Random.Bool())
                .RuleFor(p => p.Material,
                     f => f.PickRandom("concrete", "wood", "stone"))
